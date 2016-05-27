@@ -1,0 +1,88 @@
+.contianer {
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: bisque;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+/*设置计算器所在位置*/
+#clearall{
+    width:45px;
+    height:32.6px;
+    margin-left: 1.5px;
+}
+/*清空按钮样式*/
+span{
+    margin-left: -5px;
+}
+table {
+    margin-left: 12px;
+    position: relative;
+    top: 5px;
+}
+/*计算机的所有按钮都在一个表格中*/
+#show {
+    width: 228px;
+    height: 35px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+/*输出框的结果显示*/
+.delete {
+    width: 22px;
+    height: 15px;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+/*删除最后一个数的按钮样式*/
+#del {
+    width: 45px;
+    height: 32.6px;
+}
+
+.oper {
+    background-color: rgb(0, 139, 139);
+    color: white;
+    width: 45px;
+}
+/*求余数，正弦，余弦，正切的按钮样式*/
+.oper:hover {
+    background-color: rgb(83,134,139);
+    color: white;
+}
+
+.btn-primary {
+    width: 45px;
+    height: 32.6px;
+    margin-top: 1px;
+}
+
+.num {
+    background-color: rgb(190, 190, 190);
+    color: white;
+    width: 45px;
+    margin-top: 1px;
+}
+/*数字键的样式*/
+.num:hover {
+    background-color: rgb(105, 105, 105);
+    color: white;
+}
+
+#add, #less, #multip, #except {
+    width: 45px;
+    margin-top: 1px;
+}
+/*加减乘除的样式*/
+
+#zero {
+    width: 90px;
+    height: 33.6px;
+}
+/*零按钮的样式*/
+#equal {
+    width: 45px;
+    height: 70px;
+}
+/*等号按钮样式*/

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            计算器
+        </title>
+        <link href="stylesheet/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="stylesheet/cal.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="contianer">
+            <table>
+                <tr>
+                    <td colspan="5">
+                        <input id="show" type="text" class="form-control"/>
+                    </td>
+                    <!-- 输出框 -->
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn btn-warning" id="del">
+                            <img class="delete" src="delete.png"/>
+                        </button>
+                        <!-- 删除最后一位 -->
+                    </td>
+                    <td>
+                        <button class=" btn btn-warning" id="clearall">
+                            <span>清空</span>
+                        </button>
+                        <!-- 清空输出框 -->
+                    </td>
+                    <td>
+                        <button class="oper btn btn-default" id="sin">
+                            sin
+                        </button>
+                        <!-- 正弦函数 -->
+                    </td>
+                    <td>
+                        <button class="oper btn btn-default" id="cos">
+                            cos
+                        </button>
+                        <!-- 余弦函数 -->
+                    </td>
+                    <td>
+                        <button class="oper btn btn-default" id="tan">
+                            tan
+                        </button>
+                        <!-- 正切函数 -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="num btn btn-default" id="seven">
+                            7
+                        </button>
+                    </td>
+                    <td>
+                        <button class="num btn btn-default" id="eight">
+                            8
+                        </button>
+                    </td>
+                    <td>
+                        <button class="num btn btn-default" id="nine">
+                            9
+                        </button>
+                    </td>
+                    <!-- 7到9数字键 -->
+                    <td>
+                        <button class=" btn btn-primary" id="except">
+                            ÷
+                        </button>
+                    </td>
+                    <!-- 除号 -->
+                    <td>
+                        <button class="oper btn btn-default" id="remainder">
+                            %
+                        </button>
+                    </td>
+                </tr>
+                <!-- 求余数 -->
+                <tr>
+                    <td>
+                        <button class="num btn btn-default" id="four">
+                            4
+                        </button>
+                    </td>
+                    <td>
+                        <button class="num btn btn-default" id="five">
+                            5
+                        </button>
+                    </td>
+                    <td>
+                        <button class="num btn btn-default" id="six">
+                            6
+                        </button>
+                    </td>
+                    <!-- 4到6数字键 -->
+                    <td>
+                        <button  class=" btn btn-primary" id="multip">
+                            ×
+                        </button>
+                        <!-- 乘号键 -->
+                    </td>
+                    <td>
+                        <button class="oper btn btn-default" id="sqrt">
+                            √
+                        </button>
+                        <!-- 根号键-->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="num btn btn-default" id="one">
+                            1
+                        </button>
+                    </td>
+                    <td>
+                        <button class="num btn btn-default" id="two">
+                            2
+                        </button>
+                    </td>
+                    <td>
+                        <button class="num btn btn-default" id="three">
+                            3
+                        </button>
+                    </td>
+                    <!-- 1到3数字键 -->
+                    <td>
+                        <button class=" btn btn-primary" id="less">
+                            -
+                        </button>
+                    </td>
+                    <!-- 减号 -->
+                    <td rowspan="2">
+                        <button class="oper btn btn-default" id="equal">
+                            =
+                        </button>
+                    </td>
+                    <!-- 等号 -->
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button class="num btn btn-default" id="zero">
+                            0
+                        </button>
+                        <!-- 零 -->
+                    </td>
+                    <td>
+                        <button class="num btn btn-default" id="point">
+                            .
+                        </button>
+                        <!-- 小数点 -->
+                    </td>
+                    <td>
+                        <button class=" btn btn-primary" id="add">
+                            +
+                        </button>
+                        <!-- 加号 -->
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="js/cal.js"></script>
+        <!-- 引入计算器js文件 -->
+    </body>
+</html>
